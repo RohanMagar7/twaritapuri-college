@@ -1,0 +1,284 @@
+/* General */
+
+/* Buy Widget */
+
+.edr-buy-widget {
+    margin-bottom: 20px;
+}
+
+.edr-buy-widget__price {
+    margin-right: 10px;
+}
+
+/* Meta */
+
+.edr-meta {
+    list-style: none;
+    margin-left: 0;
+    padding: 0;
+}
+
+.edr-meta>span {
+    display: inline-block;
+    margin: 0 1em 0 0;
+}
+
+/* Syllabus */
+
+.edr-syllabus .group-header {
+    margin: 0 0 10px;
+}
+
+.edr-syllabus .group-title {
+    margin: 0;
+}
+
+.edr-lessons .lesson {
+    margin: 0 0 10px;
+}
+
+.edr-lessons .lesson-excerpt p {
+    margin: 0;
+}
+
+/* Breadcrumbs */
+
+.edr-breadcrumbs {
+    list-style: none;
+    margin: 0 0 2em;
+    padding: 0;
+}
+
+.edr-breadcrumbs li {
+    display: inline-block;
+    margin: 0 .5rem 0 0;
+}
+
+.edr-breadcrumbs li+li:before {
+    content: '\2192';
+    display: inline-block;
+    margin: 0 .5rem 0 0;
+}
+
+/* Messages */
+
+.edr-messages {
+    margin: 20px 0 20px;
+}
+
+.edr-messages__message {
+    margin-bottom: 10px;
+}
+
+/* Form */
+
+.edr-form__legend {
+    margin: 0 0 10px;
+}
+
+.edr-form__fields,
+.edr-form__actions {
+    margin: 0 0 20px;
+}
+
+.edr-field {
+    margin: 0 0 20px;
+}
+
+.edr-radio input {
+    margin-right: 5px;
+}
+
+/* Courses shortcode */
+
+.edr-course {
+    margin: 0 0 40px;
+}
+
+.edr-course__image {
+    margin: 0 0 10px;
+}
+
+.edr-course__header {
+    margin: 0 0 20px;
+}
+
+.edr-course__title {
+    margin: 0;
+}
+
+.edr-course__price {
+    margin: 10px 0 0;
+}
+
+/* Membership shortcode */
+
+.edr-membership {
+    margin: 0 0 40px;
+}
+
+.edr-membership__header {
+    margin: 0 0 20px;
+}
+
+.edr-membership__title {
+    margin: 0;
+}
+
+.edr-membership__price {
+    margin: 10px 0 0;
+}
+
+.edr-membership__summary p {
+    margin: 0 0 20px;
+}
+
+.edr-membership__more {
+    margin-right: 10px;
+}
+
+/* Lists */
+
+.edr-dl {
+    margin: 0 0 20px;
+}
+
+.edr-dl dd {
+    margin: 0 0 10px;
+}
+
+/* No access notice */
+
+.edr-no-access-notice {
+    margin: 0 0 20px;
+}
+
+/* Payment Information */
+
+.edr-payment-table {
+    margin: 0 0 20px;
+}
+
+/* Payment Methods */
+
+.edr-payment-methods {
+    list-style: none;
+    margin: 0 0 20px;
+    padding: 0;
+}
+
+.edr-payment-methods li {
+    margin: 0 0 5px;
+}
+
+/* My Courses Page */
+
+.edr-student-courses td {
+    vertical-align: top;
+}
+
+.payment-description .text {
+    display: none;
+}
+
+.payment-description.open .text {
+    display: block;
+}
+
+.payment-description p {
+    margin: 0;
+}
+
+/* My Membership */
+
+.edr-user-membership th,
+.edr-user-membership td {
+    vertical-align: top;
+}
+
+.edr-user-membership .edr-buy-widget {
+    margin: 0;
+}
+
+/* Lessons nav links */
+
+.lessons-nav-links {
+    margin: 0 0 20px;
+}
+
+.lessons-nav-links .hint {
+    margin-right: 10px;
+}
+
+/* Quiz */
+
+.edr-quiz {
+    margin: 0 0 20px;
+}
+
+.edr-quiz__title,
+.edr-quiz__grade,
+.edr-quiz__attempts {
+    margin: 0 0 10px;
+}
+
+.edr-question .label,
+.edr-question .content {
+    margin: 0 0 .5rem;
+}
+
+.edr-question .answers {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.edr-question .answers li:after {
+    clear: both;
+    content: '';
+    display: table;
+}
+
+.edr-question .answers label {
+    font-weight: normal;
+}
+
+.edr-question {
+    margin: 0 0 20px;
+}
+
+.edr-quiz_done .choice-text {
+    margin-left: 16px;
+}
+
+.edr-quiz_editable .choice-checkbox {
+    margin-right: 7px;
+}
+
+.choice-correct:before,
+.choice-wrong.choice-selected:before {
+    display: inline-block;
+    font-family: Helvetica, Arial, sans-serif;
+    float: left;
+    line-height: 28px;
+}
+
+.choice-correct:before {
+    content: '\2713';
+    font-size: 16px;
+}
+
+.choice-wrong.choice-selected:before {
+    content: '\00d7';
+    font-size: 18px;
+}
+
+/* Widgets */
+
+.syllabus-widget .group {
+    margin: 0 0 20px;
+}
+
+.syllabus-widget .group-header {
+    margin: 0 0 10px;
+}
